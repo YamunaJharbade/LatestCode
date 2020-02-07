@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="110828" started-at="2020-02-07T17:22:21 IST" finished-at="2020-02-07T17:24:12 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="110828" started-at="2020-02-07T17:22:21 IST" finished-at="2020-02-07T17:24:12 IST">
+      <class name="com.amazon.AddToCartAndWL.AddToCartAndWL">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.amazon.AddToCartAndWL.AddToCartAndWL@11438d26]" name="setupSuite" is-config="true" duration-ms="234" started-at="2020-02-07T17:22:21 IST" finished-at="2020-02-07T17:22:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.amazon.AddToCartAndWL.AddToCartAndWL@11438d26]" name="launchBrowser" is-config="true" duration-ms="9868" started-at="2020-02-07T17:22:21 IST" finished-at="2020-02-07T17:22:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="LaunchURL()[pri:0, instance:com.amazon.AddToCartAndWL.AddToCartAndWL@11438d26]" name="LaunchURL" is-config="true" duration-ms="9673" started-at="2020-02-07T17:22:31 IST" finished-at="2020-02-07T17:22:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchURL -->
+        <test-method status="PASS" signature="Login()[pri:1, instance:com.amazon.AddToCartAndWL.AddToCartAndWL@11438d26]" name="Login" duration-ms="14796" started-at="2020-02-07T17:22:41 IST" finished-at="2020-02-07T17:22:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="CheckResults(org.testng.ITestResult)[pri:0, instance:com.amazon.AddToCartAndWL.AddToCartAndWL@11438d26]" name="CheckResults" is-config="true" duration-ms="5" started-at="2020-02-07T17:22:56 IST" finished-at="2020-02-07T17:22:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=AddToCartAndWL.Login()[pri:1, instance:com.amazon.AddToCartAndWL.AddToCartAndWL@11438d26] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResults -->
+        <test-method status="PASS" signature="LaunchURL()[pri:0, instance:com.amazon.AddToCartAndWL.AddToCartAndWL@11438d26]" name="LaunchURL" is-config="true" duration-ms="3645" started-at="2020-02-07T17:22:58 IST" finished-at="2020-02-07T17:23:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchURL -->
+        <test-method status="PASS" signature="searchbyTextWLtest(java.lang.String)[pri:3, instance:com.amazon.AddToCartAndWL.AddToCartAndWL@11438d26]" name="searchbyTextWLtest" duration-ms="70693" started-at="2020-02-07T17:23:01 IST" data-provider="getData" finished-at="2020-02-07T17:24:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bike]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchbyTextWLtest -->
+        <test-method status="PASS" signature="CheckResults(org.testng.ITestResult)[pri:0, instance:com.amazon.AddToCartAndWL.AddToCartAndWL@11438d26]" name="CheckResults" is-config="true" duration-ms="1" started-at="2020-02-07T17:24:12 IST" finished-at="2020-02-07T17:24:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchbyTextWLtest status=SUCCESS method=AddToCartAndWL.searchbyTextWLtest(java.lang.String)[pri:3, instance:com.amazon.AddToCartAndWL.AddToCartAndWL@11438d26] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResults -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.amazon.AddToCartAndWL.AddToCartAndWL@11438d26]" name="teardown" is-config="true" duration-ms="2394" started-at="2020-02-07T17:24:12 IST" finished-at="2020-02-07T17:24:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.amazon.AddToCartAndWL.AddToCartAndWL -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
